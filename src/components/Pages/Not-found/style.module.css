@@ -1,0 +1,15 @@
+.notfound{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    font-size: larger;
+}
+.img{
+    width: 60vh;
+    height:60vh ;
+}
+.text{
+    text-align: center;
+}

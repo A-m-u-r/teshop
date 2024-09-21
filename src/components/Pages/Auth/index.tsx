@@ -1,11 +1,11 @@
 "use client"
 import React, {useEffect, useState} from 'react';
-import useStore from "@/store";
+
 import styles from './style.module.css'
 import LoginForm from "@/components/UI/LoginForm";
 import {IUser} from "@/models/IUser";
 import UserService from "@/services/UserServices";
-import {getPosts} from "@/api/requests";
+
 const Auth: React.FC = () => {
 
     const [users, setUsers] = useState<IUser[]>([]);

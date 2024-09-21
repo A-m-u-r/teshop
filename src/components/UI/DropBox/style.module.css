@@ -1,0 +1,47 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    width: 60vw;
+
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 60vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menuButton{
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    margin-left: 10px;
+}
+.menuButton:hover{
+    background-color: var(--grey);
+    border-radius: 20%;
+
+}
+.icon{
+    width:3vh;
+    height: 3vh;
+}
+.a{
+    padding: 0.5vh;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+.a:hover {
+    background-color: var(--grey);
+}
+.item{
+    width: max-content;
+    margin: 0.3vh;
+}
